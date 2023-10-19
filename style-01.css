@@ -2,12 +2,9 @@
  * CSS File for the solution
  * Tutorial 05
  * Step 01
- * Intstructions are found below in the CSS comments
  */
 
- html {
-  /* We're setting the default font size for the html element */
-  /* GO REMS */
+html {
   font-size: 1.0rem;
 }
 
@@ -17,21 +14,14 @@
   from reset.css
 */
 body {
-  /* Set the font */
   font-family: Arial, Helvetica, sans-serif;
-  /* Set the page background colour */
   background-color: #edf2f4;
-  /* Set the text colour */
   color: #242121;
 
   /* Flex directives */
-  /* 1. Set the display to flex */
-
-  /* 2. Set the flex direction to column */
-
-  /* 3. Set the justify content to space between */
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
 
 /* The first item in the flex container will be the header */
@@ -44,16 +34,12 @@ body {
 */
 header {
   padding: 2rem 1rem;
-  /* 4. Set a cool background colour */
-
-  /* 5. Set a cool text colour (or use #edf2f4) */
-
+  background-color: #2b2d42;
+  color: #edf2f4;
 }
 
 header h2 {
-  /* 6. Set the text alignment to center */
-
-
+  text-align: center;
   margin: 0;
 }
 
@@ -72,9 +58,7 @@ header h2 {
   make it look a bit better
 */
 main {
-  /* 7. Set the align-self to center
-        This is so our element does stretch to full width of the page
-  */
+  align-self: center;
 
   min-width: 500px;
   padding: 5rem;
@@ -93,10 +77,8 @@ main {
 */
 footer {
   padding: 2rem 1rem;
-  /* 8. Set a cool background colour (or use #1d3557) */
-
-  /* 9. Set a cool text colour (or use #edf2f4) */
-
+  background-color: #1d3557;
+  color: #f1faee;
 }
 
 footer h2 {
